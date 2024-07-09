@@ -1,0 +1,24 @@
+{
+  "name": "healthcheck",
+  "version": "1.0.0",
+  "description": "health check api service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prajwal",
+  "license": "ISC",
+  "dependencies": {
+    "akamai-edgeauth": "^0.2.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "edgegrid": "^3.0.8",
+    "fastify": "^4.28.1",
+    "fastify-plugin": "^4.5.1",
+    "ioredis": "^5.4.1",
+    "kafkajs": "^2.2.4",
+    "mysql2": "^3.10.2",
+    "node-rdkafka": "^3.0.1",
+    "redis": "^4.6.14"
+  }
+}
